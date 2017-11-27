@@ -1,0 +1,41 @@
+{
+  "Questions": [
+    {
+      "id":"headache",
+      "title":"Do you have a headache?",
+      "file":"database/init.json",
+      "response": [
+        {
+          "title":"yes",
+          "link": [
+            {
+              "local":"demoover"
+            }
+          ]
+        },
+        {
+          "title":"no",
+          "link": [
+            {
+              "local":"demoover"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"demoover",
+      "title":"The demo is over",
+      "file":"database/init.json",
+      "response": [
+        {
+          "title":"Exit",
+          "link": {
+            "end":"anamnes"
+          }
+        }
+      ]
+
+    }
+  ]
+}
