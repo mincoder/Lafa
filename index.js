@@ -65,6 +65,8 @@ app.get('/getPatientQuestion', function(req, res) {
     console.log("getting database/init.json " + req.body);
 });
 
-app.get('/setPatientQuestionResult', function(req, res) {
-
+app.post('/setPatientQuestionResult', function(req, res) {
+    sess = req.session;
+    console.log("Receives /setPatientQuestionResult post:")
+    console.log(req.body);
 });

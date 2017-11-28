@@ -17,7 +17,8 @@
           "title":"no",
           "link": [
             {
-              "local":"demoover"
+              "type":"local",
+              "id":"demoover"
             }
           ]
         }
